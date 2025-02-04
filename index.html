@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Burger</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h2 id="Inicio">Burger Valencia</h2>
+        <img src="img/burgerbanner.jpg" alt="Banner Burger">
+    </header>
+    <nav>
+        <a href="#Inicio">Inicio</a>
+        <a href="#QuienesSomos">¿Quiénes somos?</a>
+        <a href="#Carta">Nuestra Carta</a>
+        <a href="#Reservas">Reservas y Localización</a>
+    </nav>
+    <main>
+        <div class="redes">
+            <p>Siguenos en las redes sociales</p>
+            <div class="iconos"> 
+                <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://x.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="https://youtube.com" target="_blank"><img src="img/youtube.png" alt="Youtube"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="https://Google.com" target="_blank"><img src="img/google.png" alt="Google"></a>
+                <a href="https://Pinterest.com" target="_blank"><img src="img/pinterest.png" alt="Pinterest"></a>
+            </div>
+        </div>
+        <section class="info">
+            <h2 id="QuienesSomos">¿Quiénes somos?</h2>
+            <p>Durante muchos años y muchos viajes nos enamoramos de las mega burgers y nos propusimos
+                traerlas a Valencia.
+                Somos la primera mega burger de la ciudad de Valencia.
+                Ahora nuestro objetivo es hacer las mejores mega burgers de la máxima calidad.
+                Para ello usamos carne de vaca gallega, pan brioche artesano, los mejores quesos y las mejores
+                salsas todas hechas por nosotros.
+                Todos los días hacemos las bolitas que luego convertimos en las mega burger con carne de vaca
+                gallega fresca para poder ofrecer la máxima calidad.</p>
+        </section>
+        <section class="carta" id="Carta">
+            <h2>Nuestra Carta</h2>
+            <div class="contenedor">
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 1">
+                    <p>HAMBURGUESA 1</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 2">
+                    <p>HAMBURGUESA 2</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 3">
+                    <p>HAMBURGUESA 3</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 4">
+                    <p>HAMBURGUESA 4</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 5">
+                    <p>HAMBURGUESA 5</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 6">
+                    <p>HAMBURGUESA 6</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 7">
+                    <p>HAMBURGUESA 7</p>
+                    <p>12€</p>
+                </div>
+                <div class="burger">
+                    <img src="img/burger.png" alt="Burger 8">
+                    <p>HAMBURGUESA 8</p>
+                    <p>12€</p>
+                </div>
+            </div>
+        </section>
+        <section class="reserva">
+            <h2 id="Reservas">Reservas y Localización</h2>
+            <div class="contreserva">
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Formulario de reserva</legend>
+                        <div id="name"><label>Nombre y Apellidos: </label><br><input class="input-text" type="text"
+                                placeholder="Nombre" name="name"></div><br>
+                        <div id="telefono"><label>Teléfono: </label><br><input class="input-text" type="text"
+                                placeholder="Teléfono" name="telefono"></div><br>
+                        <div id="personas"><label>Número de personas: </label><br><input class="input-text" type="text"
+                                placeholder="1" name="Personas"></div><br>
+                        <div id="email"><label>Email: </label><br><input class="input-text" type="text"
+                                placeholder="Email" name="name"></div>
+                        <div id="boton"><input class="button" type="button" value="Enviar"></div>
+                    </fieldset>
+                </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4478.556327035682!2d-0.46243510534877114!3d39.54824620759345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605bc401aec5b3%3A0x8968665575dd9e1a!2sC%C3%A1mara%20FP!5e1!3m2!1ses!2ses!4v1738659808058!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©<br>Adrian Lamberto Del Canto</p>
+    </footer>
+</body>
+
+</html>
